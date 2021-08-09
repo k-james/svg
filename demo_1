@@ -5,7 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+   
+   $('#3bd-button').on("click", function() {
+            $('.3bd').css({ fill: "#ff0000" });
+        });
+            $('#2bd-button').on("click", function() {
+            $('.2bd').css({ fill: "#00ff00" });
+        });
+    
+    </script>
         <style>
         .cls-1{fill:#f4f2f2;}
         .cls-2,.cls-4{fill:none;}
