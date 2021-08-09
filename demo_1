@@ -82,6 +82,9 @@
         <g id="_42" data-name="42"><polygon class="cls-3 3bd" points="1527.45 305.55 1527.01 377.98 1640.71 378.74 1640.92 345.5 1647.5 345.61 1647.72 306.32 1527.45 305.55"/></g></g></svg>
 
 
+<button class="3bd-button">3 Bedroom</button>
+<button class="2bd-button">2 Bedroom</button>
+
 
 </body>
 </html>
