@@ -6,16 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   <script>
    
-   $('#3bd-button').on("click", function() {
-            $('.3bd').css({ fill: "#ff0000" });
-        });
-            $('#2bd-button').on("click", function() {
-            $('.2bd').css({ fill: "#00ff00" });
-        });
-    
-    </script>
         <style>
         .cls-1{fill:#f4f2f2;}
         .cls-2,.cls-4{fill:none;}
@@ -23,8 +14,6 @@
         .cls-2,.cls-4{stroke-miterlimit:10;}
         .cls-3,.cls-4{stroke:#000;stroke-width:2px;}
         .cls-3{stroke-linecap:round;stroke-linejoin:round;}
-
-
         .cls-3{
             fill: #a9a9a9;
             opacity: 0.6;
@@ -33,6 +22,9 @@
         .cls-3:hover{
             fill: #ec008c;
         }
+        .active{ fill:#00ff00;}
+        .button-active{background:#00ff00;}
+        button{cursor: pointer;}
         </style>
 </head>
 <body>
@@ -95,6 +87,21 @@
 <button class="3bd-button">3 Bedroom</button>
 <button class="2bd-button">2 Bedroom</button>
 
-
+<script>
+   
+    $('#3bd-button').on("click", function() {
+             $('.cls-3.3bd').addClass("active");
+             $('#3bd-button').addClass("button-active");
+             $('.cls-3.2bd').removeClass("active");
+             $('#2bd-button').removeClass("button-active");
+         });
+     $('#2bd-button').on("click", function() {
+             $('.cls-3.2bd').addClass("active");
+             $('#2bd-button').addClass("button-active");
+             $('.cls-3.3bd').removeClass("active");
+             $('#3bd-button').removeClass("button-active");
+         });
+     
+     </script>
 </body>
 </html>
