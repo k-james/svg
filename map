@@ -1,37 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.1/svg.min.js"></script>
-
-        <style>
-        .cls-1{fill:#f4f2f2;}
-        .cls-2,.cls-4{fill:none;}
-        .cls-2{stroke:#e5e5e5;}
-        .cls-2,.cls-4{stroke-miterlimit:10;}
-        .cls-3,.cls-4{stroke:#000;stroke-width:2px;}
-        .cls-3{stroke-linecap:round;stroke-linejoin:round;}
-        .cls-3{
-            fill: #a9a9a9;
-            opacity: 0.6;
-            cursor:pointer;
-                }
-        .cls-3:hover{
-            fill: #ec008c;
-        }
-        .active{ fill:#00ff00;}
-        .button-active{background:#00ff00;}
-        button{cursor: pointer;}
-        </style>
-</head>
-<body>
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1762.09 652"><defs>
-        <style></style>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1762.09 652"><defs>
+        <style>        .cls-1{fill:#f4f2f2;} .cls-2,.cls-4{fill:none;} .cls-2{stroke:#e5e5e5;} .cls-2,.cls-4{stroke-miterlimit:10;} .cls-3,.cls-4{stroke:#000;stroke-width:2px;} .cls-3{stroke-linecap:round;stroke-linejoin:round;}
+</style>
         </defs>
         <g id="Layer_2" data-name="Layer 2">
         <g id="Road">
@@ -83,6 +52,3 @@
         <g id="_41_2bd" data-name="41_2bd"><polygon class="cls-3 2bd" points="1527.01 377.98 1526.69 432.3 1646.85 433.07 1647.08 416.72 1656.95 416.83 1657.17 378.86 1527.01 377.98"/></g>
         <g id="_42" data-name="42"><polygon class="cls-3 3bd" points="1527.45 305.55 1527.01 377.98 1640.71 378.74 1640.92 345.5 1647.5 345.61 1647.72 306.32 1527.45 305.55"/></g></g></svg>
 
-
-</body>
-</html>
