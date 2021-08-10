@@ -83,27 +83,5 @@
         <g id="_41_2bd" data-name="41_2bd"><polygon class="cls-3 2bd" points="1527.01 377.98 1526.69 432.3 1646.85 433.07 1647.08 416.72 1656.95 416.83 1657.17 378.86 1527.01 377.98"/></g>
         <g id="_42" data-name="42"><polygon class="cls-3 3bd" points="1527.45 305.55 1527.01 377.98 1640.71 378.74 1640.92 345.5 1647.5 345.61 1647.72 306.32 1527.45 305.55"/></g></g></svg>
 
-
-<button class="3bd-button">3 Bedroom</button>
-<button class="2bd-button">2 Bedroom</button>
-
-<script>
-   
-   $(document).ready(function() {
-    $('#3bd-button').on("click", function() {
-             $('.cls-3.3bd').addClass("active");
-             $('#3bd-button').addClass("button-active");
-             $('.cls-3.2bd').removeClass("active");
-             $('#2bd-button').removeClass("button-active");
-         });
-     $('#2bd-button').on("click", function() {
-             $('.cls-3.2bd').addClass("active");
-             $('#2bd-button').addClass("button-active");
-             $('.cls-3.3bd').removeClass("active");
-             $('#3bd-button').removeClass("button-active");
-         });
-        });
-     
-     </script>
 </body>
 </html>
