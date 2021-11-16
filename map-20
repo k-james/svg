@@ -366,8 +366,8 @@
  <script src="https://unpkg.com/@panzoom/panzoom@4.4.1/dist/panzoom.min.js"></script>
 <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
 <script>
-const parent = document.getElementsByClassName('panzoom-parent2')[0]
-const element = document.getElementById('panzoom-element2');
+const parent = document.getElementsByClassName('panzoom-parent')[0]
+const element = document.getElementById('panzoom-element');
 const panzoom = Panzoom(element);
 document.getElementById('zoomIn').addEventListener('click', function() {
 	panzoom.zoomIn(.5, { clientX: parent.offsetWidth / 2, clientY: parent.offsetHeight / 2 });
