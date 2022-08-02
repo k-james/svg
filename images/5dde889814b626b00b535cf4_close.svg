@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="close" transform="translate(-8 -8)">
+    <g id="Icon-Close" transform="translate(8 8)">
+      <path id="Fill-16" d="M-371.476-191-373-192.524-342.524-223l1.524,1.524L-371.476-191" transform="translate(373 223)" fill="#fff"/>
+      <path id="Fill-17" d="M-342.524-191-373-221.476l1.524-1.524L-341-192.524-342.524-191" transform="translate(373 223)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
